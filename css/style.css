@@ -1,0 +1,41 @@
+/* importing fonts */
+@import url(./fonts.css);
+
+/* importing varibale */
+@import url(./variables/_variables.css);
+
+/* =====> Customizing navbar <===== */
+/* Padding brand */
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 5rem 0 1rem;
+}
+
+/* Padding right side of navbar */
+.header_area .main-menu .navbar {
+  padding: 1rem 10rem;
+}
+
+/* customizing navbar links  */
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  /* properties: font-style, font-weight, font-size, line-height, font-famly with var */
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+/* navbar active (Home) gradient */
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* navbar links hover gradient */
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: tex t;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
